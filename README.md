@@ -18,9 +18,12 @@
 - Subscribe and consume from the cleansed-clickstream-topic and Print the metadata along with the actual messages.
 - Build the JAR using mvn clean assembly:single and go to the target folder. Run `java -jar ConsumerApplication-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
 - Output:
-```Consumer Record: Key - Cust069 Value - Cust069,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.4,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71562
-Consumer Record: Key - Cust070 Value - Cust070,2014-04-06T18:44:58.314Z,PROD001$PROD002$PROD011,192.18.12.5,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71563
-Consumer Record: Key - Cust071 Value - Cust071,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.6,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71564
-Consumer Record: Key - Cust072 Value - Cust072,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.7,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71565
-Consumer Record: Key - Cust073 Value - Cust073,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.8,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71566```
+  ```Consumer Record: Key - Cust069 Value - Cust069,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.4,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71562
+  Consumer Record: Key - Cust070 Value - Cust070,2014-04-06T18:44:58.314Z,PROD001$PROD002$PROD011,192.18.12.5,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71563
+  Consumer Record: Key - Cust071 Value - Cust071,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.6,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71564
+  Consumer Record: Key - Cust072 Value - Cust072,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.7,150,http://YouBuyy.com/Mob1 Partition - 0 Offset - 71565
+  Consumer Record: Key - Cust073 Value - Cust073,2014-04-06T18:44:58.314Z,PROD001$PROD021$PROD011,192.18.12.8,150,http://YouBuyy.com/Mob1 Partition - 0 Offset -  71566```
 
+## Kafka Architecture
+
+![k3](https://user-images.githubusercontent.com/49421121/119250679-5d190300-bbbf-11eb-997c-5d8ffd86ae92.png)
